@@ -1,3 +1,4 @@
+import 'package:cources/ui/widgets/test_stateless_widget.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {
@@ -28,6 +29,8 @@ class _MainScreenState extends State<MainScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Padding(
+                padding: EdgeInsets.all(16.0), child: TestStatelessWidget()),
             Text(
               'You have pushed the button this many times:',
             ),

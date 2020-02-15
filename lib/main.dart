@@ -1,4 +1,4 @@
-import 'package:cources/screen/main_screen.dart';
+import 'package:cources/ui/screen/main_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(Application());
